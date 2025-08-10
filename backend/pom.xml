@@ -7,10 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>family-tribute-backend</name>
   <description>Family Tribute Spring Boot Backend</description>
-  <properties>
-    <java.version>17</java.version>
-    <spring.boot.version>3.3.2</spring.boot.version>
-  </properties>
+<properties>
+  <java.version>17</java.version>
+  <spring.boot.version>3.3.2</spring.boot.version>
+  <maven.compiler.source>17</maven.compiler.source>
+  <maven.compiler.target>17</maven.compiler.target>
+</properties>
   <dependencyManagement>
     <dependencies>
       <dependency>

@@ -35,5 +35,8 @@
       }
     }
   },
-  "defaultProject": "family-tribute-frontend"
+  "defaultProject": "family-tribute-frontend",
+  "cli": {
+    "analytics": "7730f1f7-032d-49f8-ba58-e6ae441edbad"
+  }
 }
