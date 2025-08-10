@@ -14,7 +14,8 @@ export interface FamilyMember {
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   // For Codespaces, you'll see a forwarded port for the backend; paste it here if needed.
-  private baseUrl = 'https://animated-space-computing-machine-xv6qrg7pw993v59g-8080.app.github.dev/api';
+  private baseUrl = '/api'; 
+
 
   constructor(private http: HttpClient) {}
 
