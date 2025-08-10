@@ -1,0 +1,38 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Node / Angular
+node_modules/
+dist/
+.tmp/
+.angular/cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular build/coverage
+coverage/
+.angular/
+.sass-cache/
+
+# Spring / Maven
+target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+
+
+# Misc
+*.swp
+*.swo
